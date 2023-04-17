@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- CodingMaker-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <!--CSS Style-->
+    <link rel="stylesheet" href="css/style_profile.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+ </head>
+  <body> 
+    <script src="js/profile.js"></script>
+    
+    <div class="box"> 
+        <form class="form" onsubmit="validateDateOfBirth()">
+
+        <h1>Profile Page</h1>
+        <div class="inputbox">
+          <input type="text" required="required" >
+          <span>First Name  </span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          <input type="text" required="required" >
+          <span>Last Name  </span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          <input type="text" required="required" >
+          <span>E-Mail</span>
+          <i></i>
+        </div>  
+       
+
+        <!-- <div class="inputbox">
+            <input type="password" required="required" >
+            <span>Password</span>
+            <i></i>
+          </div> -->
+          <!-- <div class="inputbox">
+            <input type="password" required="required" >
+            <span>Confirm Password</span>
+            <i></i>
+          </div> -->
+
+
+          
+          <div class="inputbox">
+            <input type="number" required="required" >
+            <span>Mobile Number</span>
+            <i></i>
+          </div>
+
+          <div class="inputbox">
+            <!-- <input type="date" required="required" > -->
+            <input type="date" id="dob" name="dob" required="required" >
+            <span>Date of Birth  </span>
+            <i></i>
+          </div>
+
+          <div class="inputbox">
+            <input type="number" required="required" >
+            <span>Age  </span>
+            <i></i>
+          </div>
+
+          <div class="inputbox">
+            <input type="text" required="required" >
+            <span>Address  </span>
+            <i></i>
+          </div>
+
+         
+
+         
+
+          <div class="links">
+            <!-- <a href="#"> Forgot Password</a> -->
+            <!-- <a href="#">Login </a> -->
+          </div>
+          <input id = "button" type="submit" value="Save">
+        </form>
+  </div>
+  </body>
+</html>

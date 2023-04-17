@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- CodingMaker-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!--CSS Style-->
+    <link rel="stylesheet" href="css/style_login.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+ </head>
+
+  <body>  
+    <div class="box"> 
+        <form name="myform" id="fupForm" class="form" method="post">
+
+        <h2>Log in </h2>
+        <div class="inputbox">
+          <!-- <input type="email" id="mail" name="username" required="required"> -->
+          <input type="email" id="email" name="email" required="required"/>
+          <!-- <input type="email" id="email" name="email" required> -->
+          <span>E-Mail </span>
+          
+          <i></i>
+        </div>
+
+        <div class="inputbox">
+          <!-- <input type="password" id="password" name="password" required="required"> -->
+          <input type="password" id="password" name="password" required="required"/>
+            <span>Password</span>
+            <i></i>
+            
+          </div>
+          
+
+          <div class="links">
+            
+            <a href="register.html"> Register </a>
+            
+          </div>
+          <input type="button"  value = "Login" onclick="return loginCheck()" id = butlogin>
+        </form>
+  </div>
+  </body>
+</html>

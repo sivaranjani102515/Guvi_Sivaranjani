@@ -1,0 +1,9 @@
+create database n;
+
+use n;
+
+create table persons(name  varchar(20),
+email  varchar(30) ,
+password varchar(50),
+mobile varchar(15),
+ constraint pk_email primary key (email));

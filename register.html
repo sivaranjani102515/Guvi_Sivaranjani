@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- CodingMaker-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <!--CSS Style-->
+    <link rel="stylesheet" href="css/style_register.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/register.js"></script>
+
+    <div class="box">
+      <form action="login.html" name="register" class="form" >
+        <h2>Register Form</h2>
+        <div class="inputbox">
+          <!-- <input type="text" required="required" > -->
+          <input type="text" name="name" required />
+          <span>Name </span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          <!-- <input type="email" required="required" > -->
+          <input type="text" name="email" required />
+          <span>E-Mail</span>
+          <i></i>
+        </div>
+
+        <div class="inputbox">
+          <!-- <input type="password" required="required" > -->
+          <input type="password" name="password" required />
+          <span>Password</span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          <!-- <input type="password" required="required" > -->
+          <input
+            type="password"
+            name="confirmPassword"
+            required
+          />
+          <span>Confirm Password</span>
+          <i></i>
+        </div>
+
+        <div class="inputbox">
+          <!-- <input type="number" required="required" > -->
+          <input
+            type="number"
+            name="mobile"
+            pattern="[0-9]{10}"
+            required
+          />
+          <span>Mobile Number</span>
+          <i></i>
+        </div>
+
+        <div class="links">
+          <!-- <a href="#"> Forgot Password</a> -->
+          <!-- <a href="#">Login </a> -->
+        </div>
+        <input type="button" value="Register" onclick="return create()">
+      </form>
+    </div>
+  </body>
+</html>
